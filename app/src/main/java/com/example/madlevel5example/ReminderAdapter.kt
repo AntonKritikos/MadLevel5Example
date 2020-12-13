@@ -1,10 +1,9 @@
-package com.example.madlevel4example
+package com.example.madlevel5example
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.madlevel3example.R
 import kotlinx.android.synthetic.main.fragment_reminder_item.view.*
 
 class ReminderAdapter(private val reminders: List<Reminder>) : RecyclerView.Adapter<ReminderAdapter.ViewHolder>(){
